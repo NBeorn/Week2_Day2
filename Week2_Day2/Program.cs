@@ -113,6 +113,43 @@ namespace Week2_Day2
             //    playAgain = Console.ReadLine();
             //}
             //while (playAgain == "YES");
+
+            //Practice
+
+            //string addGrade;
+            //do
+            //{
+            //    Console.WriteLine("What class would you like to add to your GPA calculation?");
+            //    Console.ReadLine();
+            //    Console.WriteLine("What was the final letter grade?");
+            //    Console.ReadLine();
+            //    Console.WriteLine("Do you have another class you would like to add?");
+            //    addGrade = Console.ReadLine();
+            //}
+            //while (addGrade == "Yes");
+
+            //Continue
+
+            //for (int i = 0; i < 20; i++)
+            //{
+            //    if (i % 2 == 0)
+            //    {
+            //        continue;
+            //    }
+            //    Console.WriteLine(i);
+            //}
+
+            //Break
+
+            for (int i = 1; i <= 20; i++)
+            {
+                if (i % 13 == 0)
+                {
+                    break;
+                }
+                Console.WriteLine(i);
+            }
+            Console.WriteLine("The loop has finished");
         }
     }
 }
