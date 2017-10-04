@@ -63,18 +63,56 @@ namespace Week2_Day2
             //    Console.WriteLine(band);
             //}
 
-            //Practice
-            string[] favoriteFoods = { "Pizza", "Chicken", "Steak", "Ribs" };
-            foreach (string food in favoriteFoods)
-            {
-                Console.WriteLine(food);
-            }
+            ////Practice
+            //string[] favoriteFoods = { "Pizza", "Chicken", "Steak", "Ribs" };
+            //foreach (string food in favoriteFoods)
+            //{
+            //    Console.WriteLine(food);
+            //}
 
-            int[] luckyNumbers = { 4, 8, 15, 16, 23, 42 };
-            foreach (int number in luckyNumbers)
-            {
-                Console.WriteLine("Your lucky number is " + number);
-            }
+            //int[] luckyNumbers = { 4, 8, 15, 16, 23, 42 };
+            //foreach (int number in luckyNumbers)
+            //{
+            //    Console.WriteLine("Your lucky number is " + number);
+            //}
+
+            //While Loop
+
+            //Console.WriteLine("Do you want to play the game? (YES/NO)");
+            //string playAgain = Console.ReadLine();
+            //while(playAgain == "YES")
+            //{
+            //    Console.WriteLine("It's a rematch!");
+            //    Console.WriteLine("Do you want to play again (YES/NO)");
+            //    playAgain = Console.ReadLine();
+            //}
+
+            //Console.WriteLine("Would you like to check in a patient for their appointment?");
+            //string checkIn = Console.ReadLine();
+            //while(checkIn != "YES")
+            //{
+            //    Console.WriteLine("Patient check in system");
+            //    Console.WriteLine("Please enter the client's full name");
+            //    Console.ReadLine();
+            //    Console.WriteLine("Please enter the client's 6-digit patient ID");
+            //    Console.ReadLine();
+            //    Console.WriteLine("Please enter the patient's appointment time");
+            //    Console.ReadLine();
+            //    Console.WriteLine("Would you like to check in a patient for their appointment?");
+            //    checkIn = Console.ReadLine();
+            //}
+
+            //Do While Loop
+
+            //string playAgain;
+            //do
+            //{
+            //    Console.WriteLine("Do you want to play the game?");
+            //    Console.WriteLine("Great Game!");
+            //    Console.WriteLine("Do you want to play again? (YES/NO)");
+            //    playAgain = Console.ReadLine();
+            //}
+            //while (playAgain == "YES");
         }
     }
 }
